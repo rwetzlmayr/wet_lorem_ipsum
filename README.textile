@@ -1,0 +1,3 @@
+h2. wet_lorem_ipsum Textpattern plugin
+
+Creates articles with randomized content to serve as test data during performance reviews and the like. Requires Textpattern 4.6-dev or later.
