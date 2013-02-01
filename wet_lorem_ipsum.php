@@ -1,6 +1,6 @@
 <?php
 /* $LastChangedRevision: $ */
-$plugin['version'] = '0.1';
+$plugin['version'] = '0.2';
 $plugin['author'] = 'Robert Wetzlmayr';
 $plugin['author_uri'] = 'http://wetzlmayr.com/';
 $plugin['description'] = 'Create new articles as test data';
@@ -127,7 +127,7 @@ class wet_lorem_ipsum
 			$Body = join(n.n, self::array_random(self::$grafs, mt_rand(2, count(self::$grafs))));
 			$Body_html = safe_escape($textile->textileThis($Body));
 			$Body = safe_escape($Body);
-			$url_title = safe_escape(md5($Title));
+			$url_title = safe_escape(md5(uniqid(rand(), true)));
 			$Section = safe_escape(self::array_random(self::$section_names, 1));
 			$custom_1 = safe_escape(self::array_random(self::$words, 1));
 			$custom_2 = safe_escape(self::array_random(self::$words, 1));
