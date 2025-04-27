@@ -1,3 +1,5 @@
-h2. wet_lorem_ipsum Textpattern plugin
+h1. 301 Moved Permanently
 
-Creates articles with randomized content to serve as test data during performance reviews and the like. Requires Textpattern 4.6-dev or later.
+The repository has been moved to https://codeberg.org/rwetzlmayr/wet_lorem_ipsum.
+
+This page is left as a placeholder to guide users to the new location.
